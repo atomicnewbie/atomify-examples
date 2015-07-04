@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "browserify": "^10.2.4",
+    "del": "^1.2.0",
     "gulp": "^3.9.0",
     "tween.js": "^0.14.0",
     "vinyl-buffer": "^1.0.0",
