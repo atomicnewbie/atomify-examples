@@ -7,8 +7,6 @@ Atomic.game.init(start, update);
 
 Atomic.totalTime = 0;
 
-var node;
-
 // called at the start of play
 function start() {
 
@@ -17,7 +15,7 @@ function start() {
    // create a 2D scene
    game.createScene2D();
 
-   node = game.scene.createChild("Star");
+   var node = game.scene.createChild("Star");
    var sprite2D = node.createComponent("StaticSprite2D");
    sprite2D.sprite = game.getSprite2D("Sprites/star.png");
    sprite2D.blendMode = Atomic.BLEND_ALPHA;
